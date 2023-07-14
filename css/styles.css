@@ -21,8 +21,6 @@ header {
 #profilePhoto {
     border: 3px solid rgb(49, 198, 252);
     border-radius: 50%;
-    position: relative;
-    top: 40px;
 }
 
 #heroText {
