@@ -3,9 +3,10 @@
     box-sizing: border-box;
 }
 
-/* remove white space around webpage */
 body {
+    /* remove white space around webpage */
     margin: 0;
+    /* general styling for webpage */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
     color: rgb(211, 211, 211);
@@ -24,16 +25,20 @@ header {
     width: 100%;
 }
 
-#profilePhoto {
-    border: 3px solid rgb(49, 198, 252);
-    border-radius: 50%;
-}
-
 #heroText {
     padding-bottom: 3em;
     text-align: center;
     color: rgb(49, 198, 252);
     width: 220px;
+}
+
+#heroText p {
+    font-size: 125%;
+}
+
+#profilePhoto {
+    border: 3px solid rgb(49, 198, 252);
+    border-radius: 50%;
 }
 
 nav {
