@@ -18,7 +18,7 @@ header {
     width: 100%;
 }
 
-#profile-photo {
+#profilePhoto {
     border: 3px solid rgb(49, 198, 252);
     border-radius: 50%;
     position: relative;
