@@ -67,6 +67,8 @@ nav>ul>li {
 
 nav>ul>li>a {
     color: rgb(49, 198, 252);
+    font-size: 125%;
+    padding: 3px;
 }
 
 footer {
