@@ -116,6 +116,17 @@ section>h2 {
     height: 100vh;
 }
 
+.projectImg {
+    width: 150px;
+    border: 2px solid rgb(49, 198, 252);
+}
+
+/* Zoomed image on hover */
+.projectImg:hover {
+    margin-left: 60px;
+    transform: scale(2.25)
+}
+
 #skills {
     display: flex;
     flex-direction: column;
