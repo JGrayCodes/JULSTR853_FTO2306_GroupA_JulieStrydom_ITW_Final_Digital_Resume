@@ -86,6 +86,10 @@ section {
     padding: 4em 20px 0 20px;
 }
 
+section>h2 {
+    color: rgb(109, 213, 251);
+}
+
 #about {
     display: flex;
     flex-direction: column;
