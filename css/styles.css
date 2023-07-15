@@ -12,13 +12,44 @@ body {
     color: rgb(211, 211, 211);
 }
 
+/* change default color for all links  */
 a {
     color: rgb(49, 198, 252);
 }
 
+/* any link changes from <a> light blue to a lighter blue shade and bold (if not bold already) when mouse hovers over it */
 a:hover {
     color: rgb(109, 213, 251);
     font-weight: bold;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 0;
+    height: 10vh;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(49, 198, 252);
+}
+
+nav>ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav>ul>li {
+    display: inline-block;
+}
+
+nav>ul>li>a {
+    font-size: 125%;
+    padding: 3px;
 }
 
 header {
@@ -51,35 +82,6 @@ header {
     border-radius: 50%;
 }
 
-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    margin: 0;
-    height: 10vh;
-    position: sticky;
-    top: 0px;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(49, 198, 252);
-}
-
-nav>ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav>ul>li {
-    display: inline-block;
-}
-
-nav>ul>li>a {
-    font-size: 125%;
-    padding: 3px;
-}
-
 section {
     padding: 4em 20px 0 20px;
 }
@@ -104,7 +106,6 @@ section {
 }
 
 #projects {
-    background-image: url(https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,6 +120,7 @@ section {
 }
 
 #contact {
+    background-image: url(https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
     display: flex;
     flex-direction: column;
     justify-content: center;
