@@ -131,6 +131,10 @@ section>h2 {
     height: 80vh;
 }
 
+span {
+    color: rgb(6, 188, 255);
+}
+
 footer {
     display: flex;
     flex-direction: column;
