@@ -12,6 +12,15 @@ body {
     color: rgb(211, 211, 211);
 }
 
+a {
+    color: rgb(49, 198, 252);
+}
+
+a:hover {
+    color: rgb(109, 213, 251);
+    font-weight: bold;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -67,7 +76,6 @@ nav>ul>li {
 }
 
 nav>ul>li>a {
-    color: rgb(49, 198, 252);
     font-size: 125%;
     padding: 3px;
 }
