@@ -109,6 +109,13 @@ section>h2 {
     /* justify-content: center; */
 }
 
+.cards {
+    margin: 0.5em;
+    border: 3px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
 #projects {
     display: flex;
     flex-direction: column;
