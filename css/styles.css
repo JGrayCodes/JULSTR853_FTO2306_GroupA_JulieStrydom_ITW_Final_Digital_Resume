@@ -18,6 +18,7 @@ header {
     /* centre the internal elements vertically and horizontally in the header element*/
     justify-content: center;
     align-items: center;
+    /* Below background pattern taken from https://codepen.io/ThePixelPixie/pen/dXwEqp and then edited to a dark-grey coloring */
     background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 55%, rgba(0, 0, 0, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 55%, rgba(0, 0, 0, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 55%, rgba(0, 0, 0, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 55%, rgba(0, 0, 0, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 55%, rgba(0, 0, 0, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#464646, #585858);
     background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
     background-repeat: repeat;
@@ -69,6 +70,51 @@ nav>ul>li>a {
     color: rgb(49, 198, 252);
     font-size: 125%;
     padding: 3px;
+}
+
+section {
+    padding: 4em 20px 0 20px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+#education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#projects {
+    background-image: url(https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
 }
 
 footer {
