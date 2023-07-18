@@ -12,6 +12,7 @@
 * CSS
 
 ## Description 
-This project is my Digital Resumé/Portfolio site.  
-It is also the final ITW Capstone Project required to complete the "Intro to Web" course of the [Software Development program](https://www.codespace.co.za/programs/software-development/) at [CodeSpace](https://www.codespace.co.za).
+This project is my Digital Resumé/Portfolio site which contains all of my qualifications, experience, projects and skills, as well as a contact form with links to my github and scratch accounts, and includes a navigation bar with links to the above sections.  
+
+This project is the final ITW Capstone Project required to complete the "Intro to Web" course of the [Software Development program](https://www.codespace.co.za/programs/software-development/) at [CodeSpace](https://www.codespace.co.za).
 
