@@ -231,56 +231,55 @@
 
         </section>
 
-        <section id="contact">
-
-            <h2> Contact me </h2>
-
-            <form action="https://formsubmit.co/j.graycodes@gmail.com" method="POST">
-
-                <p>
-                    <label for="fullName"> Full name <span> * </span> </label>
-                    <input type="text" id="fullName" name="contactFullName" placeholder="Your name"
-                        title="Required, letters and spaces only" pattern="^[a-zA-Z]+( [a-zA-Z]+)*$" required>
-                </p>
-
-                <p>
-                    <label for="email"> Email address <span> * </span> </label>
-                    <input type="email" id="email" name="contactEmail" placeholder="Your email address" required>
-                </p>
-
-                <p>
-                    <label for="emailSubject"> Email Subject <span> * </span> </label>
-                    <select name="_subject" id="emailSubject" name="emailSubject"
-                        title="Required, please select a subject" required>
-                        <option value="" disabled selected> <span> &lt </span> Select a subject <span> &gt </span>
-                        </option>
-                        <option value="jobOppRecruiter"> Job opportunity from a recruiter </option>
-                        <option value="jobOppDirect"> Job opportunity directly from a business </option>
-                        <option value="pitchIdea"> Pitch Idea </option>
-                        <option value="websiteFeedback"> Website Feedback </option>
-                        <option value="other"> Other </option>
-                    </select>
-                </p>
-
-                <p>
-                    <label for="contactMsg"> Message: </label>
-                    <textarea id="contactMsg" name="contactMsg"> </textarea>
-                </p>
-
-                <input type="submit" id="submitButton" value="Send your message">
-
-                <input type="reset">
-
-                <p> <span> * </span> Required fields </p>
-
-            </form>
-
-        </section>
-
-
     </main>
 
-    <footer>
+    <footer id="contact">
+
+        <h2> Contact me </h2>
+
+        <form action="https://formsubmit.co/j.graycodes@gmail.com" method="POST">
+
+            <p>
+                <label for="fullName"> Full name <span> * </span> </label>
+                <input type="text" id="fullName" name="contactFullName" placeholder="Your name" class="fieldStyle"
+                    title="Required, letters and spaces only" pattern="^[a-zA-Z]+( [a-zA-Z]+)*$" required>
+            </p>
+
+            <p>
+                <label for="email"> Email address <span> * </span> </label>
+                <input type="email" id="email" name="contactEmail" placeholder="Your email address" class="fieldStyle"
+                    required>
+            </p>
+
+            <p>
+                <label for="emailSubject"> Email Subject <span> * </span> </label>
+                <select name="_subject" id="emailSubject" name="emailSubject" class="fieldStyle"
+                    title="Required, please select a subject" required>
+                    <option value="" disabled selected> <span> &lt </span> Select a subject <span> &gt </span>
+                    </option>
+                    <option value="jobOppRecruiter"> Job opportunity from a recruiter </option>
+                    <option value="jobOppDirect"> Job opportunity directly from a business </option>
+                    <option value="pitchIdea"> Pitch Idea </option>
+                    <option value="websiteFeedback"> Website Feedback </option>
+                    <option value="other"> Other </option>
+                </select>
+            </p>
+
+            <p>
+                <label for="contactMsg"> Message: </label>
+                <textarea id="contactMsg" name="contactMsg"> </textarea>
+            </p>
+
+            <div id="formButtons">
+                <input type="submit" id="submitButton" class="formButton" value="Send your message">
+
+                <input type="reset" id="resetButton" class="formButton">
+            </div>
+
+            <p> <span> * </span> Required fields </p>
+
+        </form>
+
 
         <div id="social">
 
@@ -304,7 +303,7 @@
 
         </div>
 
-        <p> Email: j.graycodes@gmail.com</p>
+        <p id="emailAddress"> Email: j.graycodes@gmail.com</p>
 
     </footer>
 

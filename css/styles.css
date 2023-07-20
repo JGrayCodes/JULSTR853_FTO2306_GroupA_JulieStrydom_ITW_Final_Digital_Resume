@@ -25,7 +25,6 @@ a:hover {
 
 nav {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: black;
@@ -83,29 +82,31 @@ header {
 }
 
 section {
+    display: flex;
+    flex-direction: column;
     padding: 4em 20px 0 20px;
 }
 
-section>h2 {
+h2 {
     color: rgb(109, 213, 251);
 }
 
 #about {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     /* justify-content: center; */
     height: 100vh;
 }
 
 #education {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     /* justify-content: center; */
 }
 
 #experience {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     /* justify-content: center; */
 }
 
@@ -117,8 +118,8 @@ section>h2 {
 }
 
 #projects {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     /* justify-content: center; */
     height: 100vh;
 }
@@ -135,37 +136,60 @@ section>h2 {
 }
 
 #skills {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     /* justify-content: center; */
     height: 100vh;
 }
 
-#contact {
-    background-image: url(https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+footer {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    height: 80vh;
+    height: 100vh;
+    padding: 0 20px 0 20px;
+}
+
+form {
+    background-image: url(https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    width: 100%;
+    border-radius: 5%;
+    padding: 1em;
+}
+
+.fieldStyle {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    height: 2em;
+}
+
+#contactMsg {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    height: 10em;
+}
+
+#formButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formButton {
+    border-radius: 5px;
 }
 
 span {
     color: rgb(6, 188, 255);
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    /* centre the internal elements vertically and horizontally in the header element*/
-    justify-content: center;
-    align-items: center;
+#social {
+    text-align: center;
     background-color: rgb(0, 0, 0);
-    height: 20vh;
     width: 100%;
 }
 
 #social p {
-    margin-top: 0;
     display: inline-block;
     padding: 1em 2em 0 2em;
 }
@@ -250,8 +274,8 @@ footer {
     }
 }
 
-footer>p {
-    margin: 0;
+#emailAddress {
+    text-align: center;
     color: rgb(211, 211, 211);
-    padding-bottom: 1em;
+    margin-top: 0;
 }
